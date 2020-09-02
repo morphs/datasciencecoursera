@@ -41,6 +41,80 @@ For each record in the dataset it is provided:
 
 Besides, there is a README.txt file with the dataset for more details.
 
+#### Codebook
+Variable Name         | Variable Detail
+----------------------|----------------------------------------
+activitityDescription | Activity label
+subject | Subject Number
+tBodyAccmeanX | X axis time body acceleration mean
+tBodyAccmeanY | Y axis time body acceleration mean
+tBodyAccmeanZ | Z axis time body acceleration mean
+tBodyAccstdX  | X axis time body acceleration standard deviation
+tBodyAccstdY | Y axis time body acceleration standard deviation
+tBodyAccstdZ | Z axis time body acceleration standard deviation
+tGravityAccmeanX | X axis time Gravity acceleration mean
+tGravityAccmeanY | Y axis time Gravity acceleration mean
+tGravityAccmeanZ | Z axis time Gravity acceleration mean
+tGravityAccstdX | X axis time Gravity acceleration standard deviation
+tGravityAccstdY | Y axis time Gravity acceleration standard deviation
+tGravityAccstdZ | Z axis time Gravity acceleration standard deviation
+tBodyAccJerkmeanX | X axis time body jerk acceleration mean
+tBodyAccJerkmeanY | Y axis time body jerk acceleration mean
+tBodyAccJerkmeanZ | Z axis time body jerk acceleration mean
+tBodyAccJerkstdX |  X axis time body jerk acceleration standard deviation
+tBodyAccJerkstdY | Y axis time body jerk acceleration standard deviation
+tBodyAccJerkstdZ | Z axis time body jerk acceleration standard deviation
+tBodyGyromeanX | X axis time body gyro mean
+tBodyGyromeanY | Y axis time body gyro mean
+tBodyGyromeanZ | Z axis time body gyro mean
+tBodyGyrostdX | X axis time body gyro standard deviation
+tBodyGyrostdY | Y axis time body gyro standard deviation
+tBodyGyrostdZ | Z axis time body gyro standard deviation
+tBodyGyroJerkmeanX | X axis time body gyro jerk mean 
+tBodyGyroJerkmeanY | Y axis time body gyro jerk mean
+tBodyGyroJerkmeanZ | Z axis time body gyro jerk mean
+tBodyGyroJerkstdX | X axis time body gyro jerk standard deviation
+tBodyGyroJerkstdY | Y axis time body gyro jerk standard deviation
+tBodyGyroJerkstdZ | Z axis time body gyro jerk standard deviation
+tBodyAccMagmean | time body magnitude acceleration mean
+tBodyAccMagstd | time body acceleration magnitude standard deviation
+tGravityAccMagmean | time gravity acceleration magnitude mean
+tGravityAccMagstd | time gravity acceleration magnitude standard deviation
+tBodyAccJerkMagmean | time body acceleration jerk magnitude mean
+tBodyAccJerkMagstd | time body acceleration jerk magnitude standard deviation
+tBodyGyroMagmean | time body gyro magnitude mean
+tBodyGyroMagstd | time body gyro magnitude standard deviation
+tBodyGyroJerkMagmean | time body gyro jerk magnitude mean
+tBodyGyroJerkMagstd | time body gyro jerk magnitude standard deviation
+fBodyAccmeanX | X axis frequency body acceleration mean
+fBodyAccmeanY | Y axis frequency body acceleration mean
+fBodyAccmeanZ | Z axis frequency body acceleration mean
+fBodyAccstdX | X axis frequency body acceleration standard deviation
+fBodyAccstdY | Y axis frequency body acceleration standard deviation
+fBodyAccstdZ | Z axis frequency body acceleration standard deviation
+fBodyAccJerkmeanX | X axis frequency body acceleration jerk mean
+fBodyAccJerkmeanY | Y axis frequency body acceleration jerk mean
+fBodyAccJerkmeanZ | Z axis frequency body acceleration jerk mean
+fBodyAccJerkstdX | X axis frequency body acceleration jerk standard deviation
+fBodyAccJerkstdY | Y axis frequency body acceleration jerk standard deviation  
+fBodyAccJerkstdZ |Z axis frequency body acceleration jerk standard deviation
+fBodyGyromeanX | X axis frequency body gyro mean
+fBodyGyromeanY | Y axis frequency body gyro mean
+fBodyGyromeanZ | Z axis frequency body gyro mean
+fBodyGyrostdX | X axis frequency body gyro standard deviation
+fBodyGyrostdY | Y axis frequency body gyro standard deviation
+fBodyGyrostdZ | Z axis frequency body gyro standard deviation
+fBodyAccMagmean | frequency body acceleration magnitude mean
+fBodyAccMagstd | frequency body acceleration magnitude standard deviation
+fBodyAccJerkMagmean | frequency body acceleration jerk magnitude mean
+fBodyAccJerkMagstd | frequency body acceleration jerk magnitude standard deviation
+fBodyGyroMagmean | frequency body gyro magnitude mean 
+fBodyGyroMagstd | frequency body gyro magnitude standard deviation
+fBodyGyroJerkMagmean | frequency body gyro jerk mean
+fBodyGyroJerkMagstd | frequency body gyro jerk standard deviation
+activity | Activity number
+
+
 #### Citation request for the dataset:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.

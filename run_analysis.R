@@ -64,7 +64,7 @@ rm(activity_labels,train_labels,test_labels)
 #Merge data and remove not needed variables
 merged_set<-rbind(train_set,test_set)
 rm(test_set,train_set)
-#Select average and standart deviation
+#Select average and standard deviation
 merged_set<-merged_set[,append(grep(x=features[,2],pattern = "[M,m]ean\\(\\)|std\\(\\)"),562:564)]
 rm(features)
 

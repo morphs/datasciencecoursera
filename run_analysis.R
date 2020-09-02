@@ -1,4 +1,6 @@
 library(dplyr)
+####################################################################################################
+#Check if it's on the right dir, get data if not
 if(sum(dir()=="features.txt")==0){
   if(file.exists("getdata_projectfiles_UCI HAR Dataset.zip") | file.exists("project_data.zip")){
     if(sum(dir()=="UCI HAR Dataset")==0){
@@ -21,10 +23,11 @@ if(sum(dir()=="features.txt")==0){
       #Extract data
       unzip("project_data.zip")
     }
-    
   }  
 }
 #getwd()
+
+####################################################################################################
 
 #Load Features and activity labels
 features<-read.csv("features.txt",sep=" ",col.names = cbind("index","names"),header=F)
